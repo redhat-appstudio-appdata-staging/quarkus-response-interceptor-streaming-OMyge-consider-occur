@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: quarkus-response-interceptor-streaming
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/rhn-it-pajennin-tenant/quarkus-response-interceptor-streaming/quarkus-response-interceptor-streaming@sha256:07bb9b52cf35bb52edea2a295f537ec51b99fe1dee12bd7f80590611d4daa25a
+        name: my-java-quarkus
+        resources: {}
+status: {}
