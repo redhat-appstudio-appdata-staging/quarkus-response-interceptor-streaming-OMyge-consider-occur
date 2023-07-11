@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: quarkus-response-interceptor-streaming
     app.kubernetes.io/part-of: quarkus-response-interceptor-streaming
-  name: quarkus-response-interceptcne
+  name: quarkus-response-intercepx0hf
 spec:
   path: /
   port:
